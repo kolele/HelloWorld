@@ -8,7 +8,9 @@ public class Hello {
         int myThirdNumber = myFirstNumber * 4;
 
         int myTotal = myFirstNumber + mySecondNumber + myThirdNumber;
+        int myThousandMinusTotal = 1000 - myTotal;
 
         System.out.println(myTotal);
+        System.out.println(myThousandMinusTotal);
     }
 }
