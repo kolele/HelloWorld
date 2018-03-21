@@ -5,7 +5,7 @@ public class Hello {
 
         int myFirstNumber = 5;
         int mySecondNumber = 12;
-        int myThirdNumber = 6;
+        int myThirdNumber = myFirstNumber * 4;
 
         int myTotal = myFirstNumber + mySecondNumber + myThirdNumber;
 
